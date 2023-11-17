@@ -1,14 +1,14 @@
 ## Problem Scenario
-Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
+Implement factory design pattern using Computer as the factory interface. The interface implements two methods: createComputer() and openComputer().
 
-Dog and Cat are concrete objects that implements Pet interface.
+ComputerBuild and ComputerParts are concrete objects that implements Computer interface.
 
-PetRecord holds attributes such as petId, petName, and Pet.
+ComputerRecords holds attributes such as computerName, computerID, and Computer.
 
-Clinic would be the client object.
+Customer would be the client object.
 
 Refer to the UML Class Diagram
 
 ## UML Class Diagram
 
-![alt text](PetClinic.png)
+![alt text](computer.PNG)
